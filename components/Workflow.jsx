@@ -1,0 +1,2 @@
+import Section from './ui/Section';
+export default function Workflow({c,lang}){const s=c.workflow;return(<Section id="workflow" tag={s.tag} title={s.title} lang={lang}><ol className="grid gap-4 md:grid-cols-3">{s.steps.map((x,i)=><li key={i} className="panel relative p-5"><span className="gold-btn mb-3 inline-flex h-9 w-9 items-center justify-center rounded-full text-sm font-extrabold">{String(i+1).padStart(2,'0')}</span><h3 className="font-extrabold">{x.title[lang]}</h3><p className="mt-1 text-sm text-mute">{x.desc[lang]}</p></li>)}</ol></Section>)}

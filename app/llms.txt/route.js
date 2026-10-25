@@ -1,0 +1,4 @@
+import {getContent,SITE_URL as u} from '@/lib/content';
+export async function GET(){const c=await getContent();const out=['ar','en'].map(l=>{const t=v=>v[l];return `## ${l==='ar'?'العربية':'English'} (${u}/${l})\n${t(c.seo.description)}\n\n${t(c.services.title)}:\n${c.services.groups.flatMap(g=>g.items).map(i=>'- '+t(i)).join('\n')}\n\n${t(c.sectors.title)}:\n${c.sectors.items.map(i=>'- '+t(i.label)).join('\n')}\n\nFAQ:\n${c.faq.items.map(f=>`Q: ${t(f.q)}\nA: ${t(f.a)}`).join('\n')}`}).join('\n\n');
+const head=`# Media Sharks\n> Egyptian content, digital marketing & media production company. Founder: ${c.about.founderName.en}. Studio: SHARKS STUDIOS (since 2024).\nContact: ${c.contact.email} | +${c.contact.whatsapp} | ${c.contact.address.en}, ${c.contact.city.en}, Egypt\n\n`;
+return new Response(head+out,{headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'public, max-age=3600'}})}

@@ -1,0 +1,3 @@
+import Section from './ui/Section';import Icon from './ui/Icon';
+export default function Clients({c,lang}){const s=c.clients;return(<Section id="clients" tag={s.tag} title={s.title} lang={lang}><ul className="panel grid gap-3 p-5 md:grid-cols-2">{s.items.map((x,i)=><li key={i} className="flex gap-2"><Icon n="check" className="mt-1 h-4 w-4 shrink-0 text-gold"/><div><b className="text-sm text-gold2">{x.name[lang]}</b>{x.desc[lang]&&<p className="text-xs text-mute">{x.desc[lang]}</p>}</div></li>)}</ul>
+<dl className="mt-4 grid grid-cols-3 gap-3">{s.stats.map((x,i)=><div key={i} className="panel p-4 text-center"><dd className="gold-text text-2xl font-extrabold">{x.value}</dd><dt className="text-xs text-mute">{x.label[lang]}</dt></div>)}</dl></Section>)}

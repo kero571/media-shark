@@ -1,0 +1,918 @@
+{
+ "seo": {
+  "title": {
+   "ar": "Media Sharks | شركة محتوى وتسويق وإنتاج إعلامي في مصر",
+   "en": "Media Sharks | Content, Marketing & Media Production in Egypt"
+  },
+  "description": {
+   "ar": "ميديا شاركس شركة متخصصة في صناعة المحتوى والتسويق الإلكتروني والتصوير والإنتاج الإعلامي لخدمة الأطباء والأكاديميات والمؤتمرات والشركات داخل مصر. استوديو SHARKS STUDIOS منذ 2024.",
+   "en": "Media Sharks is an Egyptian company specialised in content creation, digital marketing, photography and professional media production for doctors, academies, conferences and brands. SHARKS STUDIOS since 2024."
+  },
+  "keywords": {
+   "ar": "ميديا شاركس, شركة تسويق إلكتروني, صناعة المحتوى, تصوير مؤتمرات, تغطية مؤتمرات طبية, محتوى طبي, إدارة سوشيال ميديا للأطباء, إنتاج بودكاست, استوديو تصوير, مونتاج فيديو, براند شخصي للأطباء, شركة محتوى في مصر, شاركس ستوديوز",
+   "en": "Media Sharks, digital marketing agency Egypt, content creation, conference coverage, medical content marketing, social media for doctors, podcast production, video production studio Cairo, personal branding for doctors, SHARKS STUDIOS"
+  }
+ },
+ "brand": {
+  "name1": "MEDIA",
+  "name2": "SHARKS",
+  "tagline": {
+   "ar": "محتوى يصنع التأثير",
+   "en": "CONTENT THAT MAKES IMPACT"
+  },
+  "logo": "/images/logo.webp"
+ },
+ "contact": {
+  "phone": "01005181007",
+  "whatsapp": "201005181007",
+  "email": "elsharks2024@gmail.com",
+  "address": {
+   "ar": "جسر السويس الرئيسي، النزهة الجديدة",
+   "en": "Suez Main Bridge, New Nozha"
+  },
+  "city": {
+   "ar": "القاهرة",
+   "en": "Cairo"
+  },
+  "social": [
+   {
+    "label": "Facebook",
+    "url": ""
+   },
+   {
+    "label": "Instagram",
+    "url": ""
+   },
+   {
+    "label": "TikTok",
+    "url": ""
+   }
+  ]
+ },
+ "nav": [
+  {
+   "label": {
+    "ar": "القطاعات",
+    "en": "Sectors"
+   },
+   "href": "#sectors"
+  },
+  {
+   "label": {
+    "ar": "الخدمات",
+    "en": "Services"
+   },
+   "href": "#services"
+  },
+  {
+   "label": {
+    "ar": "الاستوديو",
+    "en": "Studio"
+   },
+   "href": "#studio"
+  },
+  {
+   "label": {
+    "ar": "الفعاليات",
+    "en": "Events"
+   },
+   "href": "#events"
+  },
+  {
+   "label": {
+    "ar": "من نحن",
+    "en": "About"
+   },
+   "href": "#about"
+  },
+  {
+   "label": {
+    "ar": "تواصل",
+    "en": "Contact"
+   },
+   "href": "#contact"
+  }
+ ],
+ "ui": {
+  "langSwitch": {
+   "ar": "English",
+   "en": "العربية"
+  },
+  "whatsappMsg": {
+   "ar": "مرحباً Media Sharks، أود الاستفسار عن خدماتكم.",
+   "en": "Hello Media Sharks, I would like to enquire about your services."
+  },
+  "whatsappAria": {
+   "ar": "تواصل عبر واتساب",
+   "en": "Chat on WhatsApp"
+  },
+  "menu": {
+   "ar": "القائمة",
+   "en": "Menu"
+  }
+ },
+ "hero": {
+  "photo": "/images/hero.webp",
+  "photoAlt": {
+   "ar": "طلحة، مؤسس ومدير شركة Media Sharks",
+   "en": "Talha, Founder & CEO of Media Sharks"
+  },
+  "badge": {
+   "ar": "Founder & CEO | Media Sharks",
+   "en": "Founder & CEO | Media Sharks"
+  },
+  "chip": {
+   "ar": "Sharks STUDIOS · منذ 2024",
+   "en": "Sharks STUDIOS · Since 2024"
+  },
+  "title1": {
+   "ar": "نحو محتوى",
+   "en": "Towards content"
+  },
+  "title2": {
+   "ar": "يصنع التأثير",
+   "en": "that makes impact"
+  },
+  "desc": {
+   "ar": "شركة متخصصة في صناعة المحتوى والتسويق والإنتاج الإعلامي الاحترافي",
+   "en": "A company specialised in content creation, marketing and professional media production."
+  },
+  "ctaWa": {
+   "ar": "تواصل معنا",
+   "en": "Contact us"
+  },
+  "ctaWork": {
+   "ar": "شاهد أعمالنا",
+   "en": "See our work"
+  }
+ },
+ "stats": {
+  "items": [
+   {
+    "icon": "calendar",
+    "value": {
+     "ar": "+8",
+     "en": "+8"
+    },
+    "label": {
+     "ar": "سنوات خبرة",
+     "en": "Years of experience"
+    },
+    "sub": {
+     "ar": "في صناعة المحتوى والإنتاج الإعلامي",
+     "en": "in content & media production"
+    }
+   },
+   {
+    "icon": "users",
+    "value": {
+     "ar": "+500",
+     "en": "+500"
+    },
+    "label": {
+     "ar": "عميل ناجح",
+     "en": "Happy clients"
+    },
+    "sub": {
+     "ar": "من مختلف المجالات والقطاعات",
+     "en": "across many fields & sectors"
+    }
+   },
+   {
+    "icon": "camera",
+    "value": {
+     "ar": "+1000",
+     "en": "+1000"
+    },
+    "label": {
+     "ar": "مشروع منفذ",
+     "en": "Projects delivered"
+    },
+    "sub": {
+     "ar": "بجودة احترافية ونتائج ملموسة",
+     "en": "professional quality, real results"
+    }
+   },
+   {
+    "icon": "star",
+    "value": {
+     "ar": "شريك واحد",
+     "en": "One partner"
+    },
+    "label": {
+     "ar": "صناعة التأثير",
+     "en": "Making impact"
+    },
+    "sub": {
+     "ar": "",
+     "en": ""
+    }
+   }
+  ]
+ },
+ "sectors": {
+  "tag": {
+   "ar": "01 / القطاعات",
+   "en": "01 / SECTORS"
+  },
+  "title": {
+   "ar": "القطاعات التي نعمل معها",
+   "en": "Sectors we work with"
+  },
+  "items": [
+   {
+    "icon": "star",
+    "label": {
+     "ar": "أطباء التجميل",
+     "en": "Cosmetic doctors"
+    }
+   },
+   {
+    "icon": "tooth",
+    "label": {
+     "ar": "نقابة أطباء الأسنان",
+     "en": "Dentists Syndicate"
+    }
+   },
+   {
+    "icon": "heart",
+    "label": {
+     "ar": "نقابة الأطباء العامة",
+     "en": "General Medical Syndicate"
+    }
+   },
+   {
+    "icon": "users",
+    "label": {
+     "ar": "الجراحين والمراكز الطبية",
+     "en": "Surgeons & medical centres"
+    }
+   },
+   {
+    "icon": "pulse",
+    "label": {
+     "ar": "دكاترة الباطنة",
+     "en": "Internal medicine doctors"
+    }
+   },
+   {
+    "icon": "heart",
+    "label": {
+     "ar": "أطباء القلب والأوعية الدموية",
+     "en": "Cardiologists & vascular doctors"
+    }
+   },
+   {
+    "icon": "graduation",
+    "label": {
+     "ar": "الأكاديميات ومراكز التعليم الطبي",
+     "en": "Academies & medical education centres"
+    }
+   },
+   {
+    "icon": "building",
+    "label": {
+     "ar": "شركات العقارات والمقاولات",
+     "en": "Real estate & contracting companies"
+    }
+   },
+   {
+    "icon": "building",
+    "label": {
+     "ar": "المستشفيات والعيادات",
+     "en": "Hospitals & clinics"
+    }
+   }
+  ],
+  "note": {
+   "ar": "… وغيرها من القطاعات والخدمات المتخصصة",
+   "en": "… and other specialised sectors and services"
+  }
+ },
+ "services": {
+  "tag": {
+   "ar": "02 / الخدمات",
+   "en": "02 / SERVICES"
+  },
+  "title": {
+   "ar": "خدماتنا الاحترافية",
+   "en": "Our professional services"
+  },
+  "groups": [
+   {
+    "icon": "video",
+    "title": {
+     "ar": "الإنتاج والتصوير السينمائي",
+     "en": "Production & Cinematography"
+    },
+    "sub": {
+     "ar": "تصوير بجودة سينمائية",
+     "en": "Cinematic-quality shooting"
+    },
+    "items": [
+     {
+      "ar": "تصوير الفيديو الإعلاني",
+      "en": "Commercial video shooting"
+     },
+     {
+      "ar": "تصوير ريلز قصيرة (Shorts & Reels)",
+      "en": "Short-form Reels & Shorts"
+     },
+     {
+      "ar": "التصوير التجاري للمنتجات والخدمات",
+      "en": "Commercial product & service photography"
+     },
+     {
+      "ar": "تصوير وإنتاج البودكاست",
+      "en": "Podcast recording & production"
+     }
+    ]
+   },
+   {
+    "icon": "megaphone",
+    "title": {
+     "ar": "التسويق الرقمي وصناعة المحتوى",
+     "en": "Digital Marketing & Content"
+    },
+    "sub": {
+     "ar": "محتوى يحقق نتائج قابلة للقياس",
+     "en": "Content with measurable results"
+    },
+    "items": [
+     {
+      "ar": "إدارة صفحات السوشيال ميديا",
+      "en": "Social media page management"
+     },
+     {
+      "ar": "صناعة المحتوى الإبداعي",
+      "en": "Creative content creation"
+     },
+     {
+      "ar": "كتابة المحتوى التسويقي",
+      "en": "Marketing copywriting"
+     },
+     {
+      "ar": "تصميم الجرافيك",
+      "en": "Graphic design"
+     },
+     {
+      "ar": "إدارة الحملات الإعلانية",
+      "en": "Ad campaign management"
+     }
+    ]
+   },
+   {
+    "icon": "mic",
+    "title": {
+     "ar": "الفعاليات والبراند الشخصي",
+     "en": "Events & Personal Branding"
+    },
+    "sub": {
+     "ar": "حضور قوي للأطباء والخبراء",
+     "en": "A strong presence for doctors & experts"
+    },
+    "items": [
+     {
+      "ar": "التغطية الإعلامية للمؤتمرات والفعاليات",
+      "en": "Media coverage for conferences & events"
+     },
+     {
+      "ar": "بناء البراند الشخصي",
+      "en": "Personal brand building"
+     },
+     {
+      "ar": "إنتاج المحتوى الطبي والتعليمي",
+      "en": "Medical & educational content"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "ar": "حلول متكاملة تحت سقف واحد",
+   "en": "Integrated solutions under one roof"
+  }
+ },
+ "studio": {
+  "tag": {
+   "ar": "03 / الاستوديو",
+   "en": "03 / THE STUDIO"
+  },
+  "title": {
+   "ar": "استوديو الإنتاج",
+   "en": "Production Studio"
+  },
+  "brand": "SHARKS STUDIOS",
+  "slogan": {
+   "ar": "إبداع بلا حدود .. جودة بلا منافس",
+   "en": "Limitless creativity .. unmatched quality"
+  },
+  "since": {
+   "ar": "منذ 2024",
+   "en": "Since 2024"
+  },
+  "img": "/images/studio.webp",
+  "imgAlt": {
+   "ar": "داخل استوديو SHARKS STUDIOS",
+   "en": "Inside SHARKS STUDIOS"
+  },
+  "chips": [
+   {
+    "ar": "بودكاست",
+    "en": "Podcast"
+   },
+   {
+    "ar": "تصوير منتجات",
+    "en": "Product shooting"
+   },
+   {
+    "ar": "فيديو إعلاني",
+    "en": "Commercials"
+   }
+  ]
+ },
+ "events": {
+  "tag": {
+   "ar": "04 / الأعمال",
+   "en": "04 / PORTFOLIO"
+  },
+  "title": {
+   "ar": "أبرز الأحداث والمؤتمرات",
+   "en": "Featured events & conferences"
+  },
+  "items": [
+   {
+    "title": {
+     "ar": "مؤتمرات نقابة الأسنان",
+     "en": "Dentists Syndicate conferences"
+    },
+    "img": "/images/event1.webp"
+   },
+   {
+    "title": {
+     "ar": "مؤتمر كلية طب الأسنان - جامعة الأزهر",
+     "en": "Al-Azhar Dentistry conference"
+    },
+    "img": "/images/event2.webp"
+   },
+   {
+    "title": {
+     "ar": "مؤتمر Endo Show",
+     "en": "Endo Show conference"
+    },
+    "img": "/images/event3.webp"
+   },
+   {
+    "title": {
+     "ar": "مؤتمر الجراحين - الجمعية المصرية لجراحة الوجه والفكين",
+     "en": "Egyptian Society of Maxillofacial Surgery conference"
+    },
+    "img": "/images/event4.webp"
+   },
+   {
+    "title": {
+     "ar": "مؤتمر TMJ Academy",
+     "en": "TMJ Academy conference"
+    },
+    "img": "/images/event5.webp"
+   },
+   {
+    "title": {
+     "ar": "مؤتمرات شركات العقارات",
+     "en": "Real estate company conferences"
+    },
+    "img": "/images/event6.webp"
+   },
+   {
+    "title": {
+     "ar": "مؤتمرات لمهندسين التشطيبات",
+     "en": "Finishing engineers conferences"
+    },
+    "img": "/images/event7.webp"
+   }
+  ]
+ },
+ "clients": {
+  "tag": {
+   "ar": "05 / الأثر",
+   "en": "05 / IMPACT"
+  },
+  "title": {
+   "ar": "أبرز العملاء والمشروعات",
+   "en": "Featured clients & projects"
+  },
+  "items": [
+   {
+    "name": {
+     "ar": "الأستاذ الدكتور رضا سعد عز",
+     "en": "Prof. Dr. Reda Saad Ezz"
+    },
+    "desc": {
+     "ar": "استشاري جراحة الجهاز الهضمي العلوي - جامعة عين شمس",
+     "en": "Consultant upper GI surgery - Ain Shams University"
+    }
+   },
+   {
+    "name": {
+     "ar": "الدكتور محمد الشماع",
+     "en": "Dr. Mohamed El-Shamaa"
+    },
+    "desc": {
+     "ar": "أستاذ الفم والوجه وجراحة الفكين",
+     "en": "Professor of oral & maxillofacial surgery"
+    }
+   },
+   {
+    "name": {
+     "ar": "الدكتور دعاء الدسوقي",
+     "en": "Dr. Doaa El-Desouky"
+    },
+    "desc": {
+     "ar": "MY Courses Academy",
+     "en": "MY Courses Academy"
+    }
+   },
+   {
+    "name": {
+     "ar": "عيادة الذملاء البيطري",
+     "en": "Veterinary clinic"
+    },
+    "desc": {
+     "ar": "",
+     "en": ""
+    }
+   },
+   {
+    "name": {
+     "ar": "ADC للتدريب والترقي",
+     "en": "ADC training & promotion"
+    },
+    "desc": {
+     "ar": "",
+     "en": ""
+    }
+   },
+   {
+    "name": {
+     "ar": "بودكاست \"ما وراء الابتسامة\"",
+     "en": "\"Behind the Smile\" podcast"
+    },
+    "desc": {
+     "ar": "",
+     "en": ""
+    }
+   },
+   {
+    "name": {
+     "ar": "شركة وليد عبدالمقصود للذهب والمجوهرات",
+     "en": "Walid Abdelmaksoud Gold & Jewellery"
+    },
+    "desc": {
+     "ar": "",
+     "en": ""
+    }
+   },
+   {
+    "name": {
+     "ar": "مؤتمرات للشركات العقارات والمقاولات",
+     "en": "Real estate & contracting conferences"
+    },
+    "desc": {
+     "ar": "إنتاج وإدارة المحتوى",
+     "en": "Content production & management"
+    }
+   },
+   {
+    "name": {
+     "ar": "العديد من الأطباء والعيادات والأكاديميات داخل مصر",
+     "en": "Many doctors, clinics and academies across Egypt"
+    },
+    "desc": {
+     "ar": "",
+     "en": ""
+    }
+   }
+  ],
+  "stats": [
+   {
+    "value": "+1000",
+    "label": {
+     "ar": "مشروع منفذ",
+     "en": "Projects"
+    }
+   },
+   {
+    "value": "+500",
+    "label": {
+     "ar": "عميل ناجح",
+     "en": "Clients"
+    }
+   },
+   {
+    "value": "+8",
+    "label": {
+     "ar": "سنوات خبرة",
+     "en": "Years"
+    }
+   }
+  ]
+ },
+ "workflow": {
+  "tag": {
+   "ar": "06 / سير العمل",
+   "en": "06 / WORKFLOW"
+  },
+  "title": {
+   "ar": "إزاي بنشتغل معاكم؟",
+   "en": "How we work with you"
+  },
+  "steps": [
+   {
+    "title": {
+     "ar": "مكالمة الاكتشاف وتحديد الأهداف",
+     "en": "Discovery call & goal setting"
+    },
+    "desc": {
+     "ar": "نفهم نشاطك وجمهورك وأهدافك لنضع خطة محتوى واضحة.",
+     "en": "We learn your business, audience and goals to craft a clear content plan."
+    }
+   },
+   {
+    "title": {
+     "ar": "الإنتاج والتصوير السينمائي",
+     "en": "Production & cinematography"
+    },
+    "desc": {
+     "ar": "تصوير احترافي داخل الاستوديو أو في موقعك أو في المؤتمر.",
+     "en": "Professional shooting in our studio, at your site or at the event."
+    }
+   },
+   {
+    "title": {
+     "ar": "ما بعد الإنتاج والمونتاج والتسليم",
+     "en": "Post-production, editing & delivery"
+    },
+    "desc": {
+     "ar": "مونتاج وتصحيح ألوان وتسليم المحتوى جاهزاً للنشر في الموعد.",
+     "en": "Editing, colour grading and on-time delivery, ready to publish."
+    }
+   }
+  ]
+ },
+ "advantages": {
+  "tag": {
+   "ar": "07 / المميزات",
+   "en": "07 / ADVANTAGES"
+  },
+  "title": {
+   "ar": "ليه Media Sharks؟",
+   "en": "Why Media Sharks?"
+  },
+  "items": [
+   {
+    "icon": "camera",
+    "title": {
+     "ar": "جودة سينمائية",
+     "en": "Cinematic quality"
+    },
+    "desc": {
+     "ar": "معدات واستوديو مجهز بالكامل.",
+     "en": "Pro gear and a fully equipped studio."
+    }
+   },
+   {
+    "icon": "users",
+    "title": {
+     "ar": "فريق متخصص",
+     "en": "Specialist team"
+    },
+    "desc": {
+     "ar": "خبرة في القطاع الطبي والتعليمي والعقاري.",
+     "en": "Experience in medical, education and real-estate sectors."
+    }
+   },
+   {
+    "icon": "shield",
+    "title": {
+     "ar": "التزام بالمواعيد",
+     "en": "On-time delivery"
+    },
+    "desc": {
+     "ar": "تسليم منظم وفق جدول واضح.",
+     "en": "Organised delivery on a clear schedule."
+    }
+   },
+   {
+    "icon": "chart",
+    "title": {
+     "ar": "نتائج قابلة للقياس",
+     "en": "Measurable results"
+    },
+    "desc": {
+     "ar": "استراتيجية محتوى تقيس الأثر.",
+     "en": "Content strategy that tracks impact."
+    }
+   }
+  ],
+  "note": {
+   "ar": "شريكك لصناعة محتوى بجودة لا تُنافس",
+   "en": "Your partner for content of unmatched quality"
+  }
+ },
+ "about": {
+  "tag": {
+   "ar": "08 / من نحن",
+   "en": "08 / ABOUT US"
+  },
+  "title": {
+   "ar": "من نحن ورؤيتنا",
+   "en": "Who we are & our vision"
+  },
+  "founderName": {
+   "ar": "طلحة",
+   "en": "Talha"
+  },
+  "role": {
+   "ar": "Founder & CEO - Media Sharks",
+   "en": "Founder & CEO - Media Sharks"
+  },
+  "bio": {
+   "ar": "مؤسس ومدير شركة Media Sharks المتخصصة في التسويق الإلكتروني وإدارة وصناعة المحتوى والتصوير والإنتاج الإعلامي.",
+   "en": "Founder & CEO of Media Sharks, specialised in digital marketing, content management, photography and media production."
+  },
+  "photo": "/images/founder.webp",
+  "text": {
+   "ar": "Media Sharks شركة متخصصة في التسويق الإلكتروني، إدارة السوشيال ميديا، صناعة المحتوى، التصوير والإنتاج الإعلامي. نساعد الأطباء والأكاديميات والشركات والعلامات التجارية على بناء حضور قوي ومؤثر من خلال استراتيجيات مبتكرة ومحتوى احترافي يجمع بين الإبداع والجودة والنتائج القابلة للقياس. هدفنا أن نصنع محتوى لا يُنشر فقط، بل يصنع تأثيراً ويحقق نمواً حقيقياً.",
+   "en": "Media Sharks specialises in digital marketing, social media management, content creation, photography and media production. We help doctors, academies, companies and brands build a strong, influential presence through innovative strategy and professional content that blends creativity, quality and measurable results. Our goal is content that does not just get published, but creates impact and real growth."
+  },
+  "visionTitle": {
+   "ar": "رؤيتنا",
+   "en": "Our vision"
+  },
+  "vision": {
+   "ar": "نؤمن أن المحتوى لم يعد مجرد وسيلة للنشر، بل أصبح أداة لبناء الثقة وصناعة التأثير وتحقيق النمو. لذلك نركز على تقديم محتوى احترافي يجمع بين:",
+   "en": "We believe content is no longer just a way to publish — it is a tool to build trust, create impact and drive growth. That is why we deliver professional content that combines:"
+  },
+  "pillars": [
+   {
+    "icon": "bulb",
+    "label": {
+     "ar": "الإبداع",
+     "en": "Creativity"
+    }
+   },
+   {
+    "icon": "target",
+    "label": {
+     "ar": "الاستراتيجية",
+     "en": "Strategy"
+    }
+   },
+   {
+    "icon": "camera",
+    "label": {
+     "ar": "الإنتاج",
+     "en": "Production"
+    }
+   },
+   {
+    "icon": "chart",
+    "label": {
+     "ar": "نتائج قابلة للقياس",
+     "en": "Measurable results"
+    }
+   }
+  ],
+  "goalsTitle": {
+   "ar": "هدفنا",
+   "en": "Our goals"
+  },
+  "goals": [
+   {
+    "ar": "التوسع في التغطية الإعلامية للمؤتمرات والفعاليات الكبرى",
+    "en": "Expanding media coverage of major conferences and events"
+   },
+   {
+    "ar": "تقديم محتوى طبي وتعليمي احترافي للأطباء والأكاديميين",
+    "en": "Professional medical & educational content for doctors and academics"
+   },
+   {
+    "ar": "إدارة البراند الشخصي للأطباء والخبراء",
+    "en": "Managing personal brands of doctors and experts"
+   },
+   {
+    "ar": "إنتاج محتوى مرئي احترافي يخدم العلامات التجارية",
+    "en": "Professional visual content that serves brands"
+   },
+   {
+    "ar": "بناء شراكات طويلة المدى مع الكيانات والمؤسسات الكبرى داخل مصر",
+    "en": "Long-term partnerships with major entities across Egypt"
+   }
+  ]
+ },
+ "faq": {
+  "tag": {
+   "ar": "09 / أسئلة شائعة",
+   "en": "09 / FAQ"
+  },
+  "title": {
+   "ar": "أسئلة شائعة",
+   "en": "Frequently asked questions"
+  },
+  "items": [
+   {
+    "q": {
+     "ar": "ما هي خدمات Media Sharks؟",
+     "en": "What does Media Sharks do?"
+    },
+    "a": {
+     "ar": "نقدم صناعة المحتوى، إدارة السوشيال ميديا، التصوير والفيديو الإعلاني، إنتاج البودكاست، تغطية المؤتمرات وبناء البراند الشخصي.",
+     "en": "We provide content creation, social media management, commercial video and photography, podcast production, conference coverage and personal branding."
+    }
+   },
+   {
+    "q": {
+     "ar": "هل تغطون المؤتمرات الطبية؟",
+     "en": "Do you cover medical conferences?"
+    },
+    "a": {
+     "ar": "نعم، غطينا مؤتمرات نقابة الأسنان وكليات الطب وجمعيات الجراحين وغيرها داخل مصر.",
+     "en": "Yes. We have covered dentistry syndicate, medical faculty and surgeons society conferences across Egypt."
+    }
+   },
+   {
+    "q": {
+     "ar": "أين يقع الاستوديو؟",
+     "en": "Where is the studio located?"
+    },
+    "a": {
+     "ar": "SHARKS STUDIOS في جسر السويس الرئيسي، النزهة الجديدة، القاهرة.",
+     "en": "SHARKS STUDIOS is at Suez Main Bridge, New Nozha, Cairo."
+    }
+   }
+  ]
+ },
+ "contactSection": {
+  "tag": {
+   "ar": "10 / تواصل معنا",
+   "en": "10 / GET IN TOUCH"
+  },
+  "title": {
+   "ar": "جاهز تخلي محتواك يصنع تأثير؟",
+   "en": "Ready to make your content count?"
+  },
+  "desc": {
+   "ar": "اكتب لنا وسنرد عليك في أقرب وقت.",
+   "en": "Write to us and we will reply shortly."
+  },
+  "labels": {
+   "name": {
+    "ar": "الاسم الكامل",
+    "en": "Full name"
+   },
+   "phone": {
+    "ar": "رقم الهاتف",
+    "en": "Phone number"
+   },
+   "sector": {
+    "ar": "القطاع / التخصص",
+    "en": "Sector / specialty"
+   },
+   "message": {
+    "ar": "اكتب رسالتك",
+    "en": "Your message"
+   },
+   "submit": {
+    "ar": "أرسل طلبك",
+    "en": "Send request"
+   }
+  },
+  "sectors": [
+   {
+    "ar": "طب وأسنان",
+    "en": "Medical & dental"
+   },
+   {
+    "ar": "أكاديمية / تعليم",
+    "en": "Academy / education"
+   },
+   {
+    "ar": "عقارات ومقاولات",
+    "en": "Real estate & contracting"
+   },
+   {
+    "ar": "شركة / علامة تجارية",
+    "en": "Company / brand"
+   },
+   {
+    "ar": "أخرى",
+    "en": "Other"
+   }
+  ]
+ },
+ "footer": {
+  "rights": {
+   "ar": "جميع الحقوق محفوظة",
+   "en": "All rights reserved"
+  }
+ }
+}

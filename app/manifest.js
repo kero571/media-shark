@@ -1,0 +1,1 @@
+export default function manifest(){return{name:'Media Sharks',short_name:'Sharks',start_url:'/ar',display:'standalone',background_color:'#060a12',theme_color:'#060a12',icons:[{src:'/icon.png',sizes:'512x512',type:'image/png'}]}}

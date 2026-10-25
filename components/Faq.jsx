@@ -1,0 +1,2 @@
+import Section from './ui/Section';
+export default function Faq({c,lang}){const s=c.faq;return(<Section id="faq" tag={s.tag} title={s.title} lang={lang}><div className="mx-auto max-w-3xl space-y-3">{s.items.map((x,i)=><details key={i} className="panel p-4"><summary className="flex items-center justify-between gap-3 font-bold">{x.q[lang]}<span aria-hidden className="plus text-xl text-gold">+</span></summary><p className="mt-3 text-sm text-mute">{x.a[lang]}</p></details>)}</div></Section>)}
