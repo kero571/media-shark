@@ -1,5 +1,7 @@
-import Section from './ui/Section';import Img from './ui/Img';import Video from './ui/Video';import {videoSrc,posterOf,imgW,isCl} from '@/lib/media';
+import Section from './ui/Section';import StudioCarousel from './StudioCarousel';import {videoSrc,posterOf,isCl} from '@/lib/media';
 const isVid=u=>/\/video\/upload\//.test(u)||/\.(mp4|webm|mov)(\?|#|$)/i.test(u);
-export default function Studio({c,lang}){const s=c.studio,fit=s.fit==='contain'?'object-contain':'object-cover';return(<Section id="studio" tag={s.tag} title={s.title} lang={lang}><div className="panel overflow-hidden">
-{s.media&&<div className="relative mx-auto w-full bg-black" style={{aspectRatio:s.ratio,maxHeight:'85svh'}}>{isVid(s.media)?<Video src={videoSrc(s.media)} poster={(s.cover?imgW(s.cover,1000):posterOf(s.media,''))||undefined} controls playsInline preload={isCl(s.media)?'none':'metadata'} aria-label={s.imgAlt[lang]} className={`absolute inset-0 h-full w-full ${fit}`}/>:<><Img src={s.media} alt={s.imgAlt[lang]} fill loading="lazy" sizes="(min-width:1152px) 1100px,100vw" className={fit}/><div aria-hidden className="absolute inset-0 bg-gradient-to-t from-bg/90 to-transparent"/></>}</div>}
+export default function Studio({c,lang}){const s=c.studio;
+const items=(s.slides||[]).map(u=>{const vid=isVid(u);return{u,vid,lazy:isCl(u),src:vid?videoSrc(u):u,poster:vid?(posterOf(u,'')||''):''}});
+return(<Section id="studio" tag={s.tag} title={s.title} lang={lang}><div className="panel overflow-hidden">
+{items.length>0&&<StudioCarousel items={items} alt={s.imgAlt[lang]}/>}
 <div className="p-5 text-center"><p className="font-display text-3xl gold-text md:text-4xl" dir="ltr">{s.brand}</p><p className="mt-1 text-sm font-semibold">{s.slogan[lang]} · <span className="text-gold2">{s.since[lang]}</span></p><ul className="mt-4 flex flex-wrap justify-center gap-2">{s.chips.map((x,i)=><li key={i} className="chip">{x[lang]}</li>)}</ul></div></div></Section>)}
