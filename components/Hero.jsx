@@ -1,6 +1,6 @@
 import Img from "./ui/Img";
 import Icon from "./ui/Icon";
-import ViewportDebug from "./ui/ViewportDebug";
+// import ViewportDebug from "./ui/ViewportDebug";
 export default function Hero({ c, lang }) {
   const h = c.hero,
     t = (v) => v[lang];
@@ -62,7 +62,7 @@ export default function Hero({ c, lang }) {
           </div>
         </div>
       </header>
-      <ViewportDebug />
+      // <ViewportDebug />
     </>
   );
 }
