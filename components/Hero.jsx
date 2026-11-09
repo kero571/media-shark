@@ -37,16 +37,7 @@ export default function Hero({ c, lang }) {
           <span className="panel px-3 py-1 text-xs font-bold text-gold2">
             {t(h.chip)}
           </span>
-          <h1
-            className="
-    flex flex-col gap-2
-    text-[clamp(1.75rem,7vw,2.5rem)]
-    font-extrabold
-    leading-[1.3]
-    lg:text-[clamp(2.4rem,4vw,3.5rem)]
-    lg:leading-[1.3]
-  "
-          >
+          <h1 className="hero-title flex flex-col gap-2 font-extrabold">
             <span>{t(h.title1)}</span>
             <span className="gold-text block">{t(h.title2)}</span>
           </h1>

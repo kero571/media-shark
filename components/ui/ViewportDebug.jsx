@@ -11,22 +11,25 @@ export default function ViewportDebug() {
       const h1 = hero?.querySelector("h1");
       const vv = window.visualViewport;
 
-      setInfo([
-        `Viewport Meta: ${
-          document.querySelector('meta[name="viewport"]')?.content || "MISSING"
-        }`,
-        `Inner Width: ${window.innerWidth}`,
-        `Inner Height: ${window.innerHeight}`,
-        `Client Width: ${document.documentElement.clientWidth}`,
-        `Screen Width: ${window.screen.width}`,
-        `Device Pixel Ratio: ${window.devicePixelRatio}`,
-        `Visual Scale: ${vv?.scale ?? "N/A"}`,
-        `Visual Width: ${vv?.width ?? "N/A"}`,
-        `Hero Width: ${hero?.getBoundingClientRect().width ?? "N/A"}`,
-        `H1 Font Size: ${
-          h1 ? getComputedStyle(h1).fontSize : "N/A"
-        }`,
-      ].join("\n"));
+      setInfo(
+        [
+          `Viewport Meta: ${
+            document.querySelector('meta[name="viewport"]')?.content ||
+            "MISSING"
+          }`,
+          `Inner Width: ${window.innerWidth}`,
+          `Inner Height: ${window.innerHeight}`,
+          `Client Width: ${document.documentElement.clientWidth}`,
+          `Screen Width: ${window.screen.width}`,
+          `Device Pixel Ratio: ${window.devicePixelRatio}`,
+          `Visual Scale: ${vv?.scale ?? "N/A"}`,
+          `Visual Width: ${vv?.width ?? "N/A"}`,
+          `Hero Width: ${hero?.getBoundingClientRect().width ?? "N/A"}`,
+          `H1 Font Size: ${h1 ? getComputedStyle(h1).fontSize : "N/A"}`,
+          `Hero Height: ${hero?.getBoundingClientRect().height ?? "N/A"}`,
+          `Hero Scroll Height: ${hero?.scrollHeight ?? "N/A"}`,
+        ].join("\n"),
+      );
     };
 
     update();

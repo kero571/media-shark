@@ -167,3 +167,14 @@ details[open] .plus {
 .events-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #f3cf7a !important;
 }
+.hero-title {
+  font-size: clamp(24px, 6vw, 36px);
+  line-height: 1.3;
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: clamp(38px, 4vw, 56px);
+    line-height: 1.3;
+  }
+}
