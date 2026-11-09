@@ -7,7 +7,7 @@ export default function Hero({ c, lang }) {
   return (
     <header
       id="hero"
-      className="relative mx-auto grid min-h-[max(460px,calc(100svh-var(--nav)))] min-h-[460px] max-w-6xl overflow-hidden lg:grid-cols-2"
+      className="relative mx-auto grid h-[calc(100svh-var(--nav))] min-h-[460px] max-w-6xl overflow-hidden lg:grid-cols-2"
     >
       <div className="absolute inset-0 lg:relative lg:order-2">
         <Img
@@ -31,24 +31,24 @@ export default function Hero({ c, lang }) {
       >
         {t(h.badge)}
       </span>
-      <div className="hero-in relative z-10 flex flex-col items-center justify-end gap-3 px-4 pb-5 text-center lg:items-start lg:justify-center lg:px-10 lg:pb-0 lg:text-start">
+      <div className="hero-in relative z-10 flex flex-col items-center justify-end gap-3 sm:gap-4 px-4 pb-5 text-center lg:items-start lg:justify-center lg:px-10 lg:pb-0 lg:text-start">
         <span className="panel px-3 py-1 text-xs font-bold text-gold2">
           {t(h.chip)}
         </span>
         <h1
           className="
     flex flex-col gap-2
-    text-[clamp(1.7rem,8vw,3.1rem)]
-    font-extrabold leading-[1.4]
-    lg:text-[clamp(2.4rem,5vw,4.4rem)]
-    lg:leading-[1.4]
+    text-[clamp(1.75rem,7vw,2.5rem)]
+    font-extrabold
+    leading-[1.3]
+    lg:text-[clamp(2.4rem,4vw,3.5rem)]
+    lg:leading-[1.3]
   "
         >
           <span>{t(h.title1)}</span>
-
           <span className="gold-text block">{t(h.title2)}</span>
         </h1>
-        <p className="max-w-md text-[clamp(.85rem,3.6vw,1rem)] text-white/80 lg:text-mute">
+        <p className="max-w-md text-sm leading-relaxed text-white/80 sm:text-base lg:text-mute">
           {t(h.desc)}
         </p>
         <div className="mt-1 flex w-full max-w-md gap-2">

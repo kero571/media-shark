@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 html {
+  --nav: 56px;
+  scroll-behavior: smooth;
+  background: #060a12;
+  scroll-padding-top: 70px;
+
+  /* Prevent automatic font resizing */
   -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 html {
