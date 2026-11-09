@@ -1,12 +1,10 @@
 import Img from "./ui/Img";
 import Icon from "./ui/Icon";
-// import ViewportDebug from "./ui/ViewportDebug";
 export default function Hero({ c, lang }) {
   const h = c.hero,
     t = (v) => v[lang];
   const wa = `https://wa.me/${c.contact.whatsapp}?text=${encodeURIComponent(t(c.ui.whatsappMsg))}`;
   return (
-    <>
       <header
         id="hero"
         className="relative mx-auto grid h-[calc(100svh-var(--nav))] min-h-[460px] max-w-6xl overflow-hidden lg:grid-cols-2"
@@ -62,7 +60,5 @@ export default function Hero({ c, lang }) {
           </div>
         </div>
       </header>
-      // <ViewportDebug />
-    </>
   );
 }
