@@ -146,10 +146,23 @@ function up(f, kind, on, prog) {
           ? "video"
           : "image"
         : kind;
-    if (f.size > (k === "video" ? 100e6 : 10e6)) {
+    if (k === "video" && f.size > 40e6) {
       alert(
-        k === "video" ? "الحد الأقصى للفيديو 100MB" : "الحد الأقصى للصورة 10MB",
+        "الفيديو أكبر من 40MB. اضغطه 720p الأول ثم ارفعه (لتوفير رصيد Cloudinary).",
       );
+      return done();
+    }
+    if (
+      k === "video" &&
+      f.size > 20e6 &&
+      !confirm(
+        `حجم الفيديو ${Math.round(f.size / 1e6)}MB. الأفضل تضغطه 720p قبل الرفع. ترفعه برضه؟`,
+      )
+    ) {
+      return done();
+    }
+    if (k === "image" && f.size > 10e6) {
+      alert("الحد الأقصى للصورة 10MB");
       return done();
     }
     const r = await fetch("/api/upload-sign", {
